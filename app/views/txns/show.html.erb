@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Txnid:</strong>
+  <%= @txn.txnid %>
+</p>
+
+<p>
+  <strong>From:</strong>
+  <%= @txn.from %>
+</p>
+
+<p>
+  <strong>Block:</strong>
+  <%= @txn.block %>
+</p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @txn.label %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @txn.address %>
+</p>
+
+<%= link_to 'Edit', edit_txn_path(@txn) %> |
+<%= link_to 'Back', txns_path %>

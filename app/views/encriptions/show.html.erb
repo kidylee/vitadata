@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @encription.name %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @encription.value %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @encription.user %>
+</p>
+
+<%= link_to 'Edit', edit_encription_path(@encription) %> |
+<%= link_to 'Back', encriptions_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  txnid: MyString
+  from: MyString
+  block: one
+  label: MyString
+  address: MyString
+
+two:
+  txnid: MyString
+  from: MyString
+  block: two
+  label: MyString
+  address: MyString
